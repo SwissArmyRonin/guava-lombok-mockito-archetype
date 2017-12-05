@@ -7,7 +7,7 @@
 		</layout>
 	</appender>
 
-	<category name="dk.darknight">
+	<category name="dk.swissarmyronin">
 		<level value="trace" />
 	</category>
 
