@@ -1,15 +1,31 @@
-# Archetype installation & use
+# README
+
+This archetype is a quick start template that provides Guava, Lombok, JUnit, Mockito, and SLF4J.
+
+## Usage
+
+```shell
+$ mvn archetype:generate -DarchetypeGroupId=dk.swissarmyronin -DarchetypeArtifactId=guava-lombok-mockito-archetype -DarchetypeVersion=1.2
+```
+
+## Troubleshooting
+
+If the archetype generation fails, check the code out and build it, then add it to the local archetype catalog.
+
+### Clone and build
 
 Clone the repository's ``master`` branch and build it.
 
 ```shell
 $ git clone -b master https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype.git
 $ cd guava-lombok-mockito-archetype
+$ export GPG_TTY=$(tty)
 $ mvn install
 ```
 
-Next, add the archetype to ``~/.m2/archetype-catalog.xml`` (remember to set the
-version to the same version that you just built):
+### Add to catalog
+
+Open ``~/.m2/archetype-catalog.xml`` and add the snippet below. Remember to set the version to the same version that you just built:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -26,9 +42,4 @@ version to the same version that you just built):
 </archetype-catalog>
 ```
 
-Now the archetype is avaialable from the command line and in your IDE. To test
-it, go to your project directory and run:
-
-```shell
-$ mvn archetype:generate -DarchetypeGroupId=dk.swissarmyronin -DarchetypeArtifactId=guava-lombok-mockito-archetype -DarchetypeVersion=1.2
-```
+Now the archetype is available from the command line and in your IDE.
