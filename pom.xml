@@ -39,7 +39,6 @@
 	<scm>
 		<connection>scm:git:git://github.com/SwissArmyRonin/guava-lombok-mockito-archetype.git</connection>
 		<developerConnection>scm:git:https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype.git</developerConnection>
-<!-- 		<developerConnection>scm:git:ssh://github.com:SwissArmyRonin/guava-lombok-mockito-archetype.git</developerConnection> -->
 		<url>https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype</url>
 	  <tag>HEAD</tag>
   </scm>

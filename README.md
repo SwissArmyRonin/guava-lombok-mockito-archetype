@@ -5,7 +5,7 @@ This archetype is a quick start template that provides Guava, Lombok, JUnit, Moc
 ## Usage
 
 ```shell
-$ mvn archetype:generate -DarchetypeGroupId=dk.swissarmyronin -DarchetypeArtifactId=guava-lombok-mockito-archetype -DarchetypeVersion=1.2
+$ mvn archetype:generate -DarchetypeGroupId=dk.swissarmyronin -DarchetypeArtifactId=guava-lombok-mockito-archetype -DarchetypeVersion=1.3
 ```
 
 ## Troubleshooting
@@ -35,7 +35,7 @@ Open ``~/.m2/archetype-catalog.xml`` and add the snippet below. Remember to set 
     <archetype>
       <groupId>dk.swissarmyronin</groupId>
       <artifactId>guava-lombok-mockito-archetype</artifactId>
-      <version>1.2</version>
+      <version>1.3</version>
       <description>A quick start template that provides Guava, Lombok, JUnit, Mockito, and SLF4J.</description>
     </archetype>
   </archetypes>
