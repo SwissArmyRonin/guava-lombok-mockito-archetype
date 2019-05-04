@@ -19,6 +19,7 @@ Clone the repository's ``master`` branch and build it.
 ```shell
 $ git clone -b master https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype.git
 $ cd guava-lombok-mockito-archetype
+$ export GPG_TTY=$(tty)
 $ mvn install
 ```
 
@@ -41,4 +42,4 @@ Open ``~/.m2/archetype-catalog.xml`` and add the snippet below. Remember to set 
 </archetype-catalog>
 ```
 
-Now the archetype is avaialable from the command line and in your IDE.
+Now the archetype is available from the command line and in your IDE.
