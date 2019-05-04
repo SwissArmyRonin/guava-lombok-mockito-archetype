@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dk.swissarmyronin</groupId>
 	<artifactId>guava-lombok-mockito-archetype</artifactId>
-	<version>1.3</version>
+	<version>1.4-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>A quick start template that provides Guava, Lombok, JUnit, Mockito, and SLF4J.</description>
 	<url>https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype</url>
@@ -41,7 +41,7 @@
 		<developerConnection>scm:git:https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype.git</developerConnection>
 <!-- 		<developerConnection>scm:git:ssh://github.com:SwissArmyRonin/guava-lombok-mockito-archetype.git</developerConnection> -->
 		<url>https://github.com/SwissArmyRonin/guava-lombok-mockito-archetype</url>
-	  <tag>guava-lombok-mockito-archetype-1.3</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<build>
